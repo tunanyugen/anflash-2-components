@@ -2,7 +2,7 @@
 <div class="ce9f468bbc8d7493f89918363550455db no-background" id="c5f8e2943c37f46e0880068d83109940d">
     <!-- Write your code here -->
     <div class="container">
-        <div class="ce9f468bbc8d7493f89918363550455db__top">
+        <div class="ce9f468bbc8d7493f89918363550455db__top w-50">
             <h2><?php echo e($content->title); ?></h2>
             <p><?php echo $content->content; ?></p>
             <div class="ce9f468bbc8d7493f89918363550455db__items">
@@ -14,7 +14,7 @@
                 Tìm hiểu thêm <i class="fas fa-arrow-right"></i>
             </a>
         </div>
-        <div class="ce9f468bbc8d7493f89918363550455db__bottom my-45 overflow-bottom">
+        <div class="ce9f468bbc8d7493f89918363550455db__bottom my-45">
             <iframe  class="media-iframe" src="<?php echo e($content->thumbnail); ?>" frameborder="0"></iframe>
         </div>
     </div>
