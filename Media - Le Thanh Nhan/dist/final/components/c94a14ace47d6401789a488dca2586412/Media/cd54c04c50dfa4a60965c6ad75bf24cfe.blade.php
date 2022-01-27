@@ -1,8 +1,10 @@
-<link rel="stylesheet" href="/main.css">
-<div class="c94a14ace47d6401789a488dca2586412 bg-blue overflow-y overflow-x-clip" id="c8efa1fc85142415ab69e0800b86530e7">
+<div class="c94a14ace47d6401789a488dca2586412 pos-relative" id="cd54c04c50dfa4a60965c6ad75bf24cfe">
     <!-- Write your code here -->
-    <div class="container">
-        <div class="c94a14ace47d6401789a488dca2586412__top w-50 text-white">
+    <div class="bg-image">
+        <img src="https://anflash.com/images/background-group5.png" class="img-cover" alt="">
+    </div>
+    <div class="container c94a14ace47d6401789a488dca2586412__wrapper">
+        <div class="c94a14ace47d6401789a488dca2586412__left">
                 <h2>{{ $content->title }}</h2>
                 <p>{!! $content->content !!}</p>
                 <div class="c94a14ace47d6401789a488dca2586412__items">
@@ -14,10 +16,9 @@
                     Tìm hiểu thêm <i class="fas fa-arrow-right"></i>
                 </a>
         </div>
-        <div class="c94a14ace47d6401789a488dca2586412__bottom h-500">
-            <img src="{{$content->thumbnail}}" class="img-cover h-auto" alt="">
+        <div class="c94a14ace47d6401789a488dca2586412__right z-1">
+            <iframe src="{{$content->thumbnail}}" frameborder="0"></iframe>
         </div>
     </div>
     <!-- Write your code here -->
 </div>
-<script src="/main.js"></script>

@@ -1,15 +1,15 @@
 <?php
 
-namespace Components\ce9f468bbc8d7493f89918363550455db\Branding;
+namespace Components\c94a14ace47d6401789a488dca2586412\DesignAndApplication;
 
 use App\Utilities\ExtendedComponent;
 
-class caceecbf971be42fe8dbe57797affa1f5 extends ExtendedComponent
+class c8efa1fc85142415ab69e0800b86530e7 extends ExtendedComponent
 {
-    protected string $uuid = "caceecbf971be42fe8dbe57797affa1f5";
-    protected string $group_id = "ce9f468bbc8d7493f89918363550455db";
-    protected string $name = "Branding";
-    protected string $description = "Branding";
+    protected string $uuid = "c8efa1fc85142415ab69e0800b86530e7";
+    protected string $group_id = "c94a14ace47d6401789a488dca2586412";
+    protected string $name = "DesignAndApplication";
+    protected string $description = "DesignAndApplication";
     // variables used in pug template
     protected array $variables = [
         

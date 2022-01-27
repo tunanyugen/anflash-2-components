@@ -25,7 +25,7 @@
     overflow-y: visible;
 }
 
-.ce9f468bbc8d7493f89918363550455db{
+.c94a14ace47d6401789a488dca2586412{
     // Write your code 
     $bg-color: #36516f;
     $text-default: #fff;
@@ -120,9 +120,9 @@
         color: $text-black;
     }
 
-    .design-image{
-        transform: translate(40%,40%);
-    }
+    // .design-image{
+    //     transform: translate(40%,40%);
+    // }
 
     .hover{
         &:hover{
@@ -138,9 +138,12 @@
         transform: translateY(95px);
     }
 
+    .h-500{
+        height: 500px;
+    }
+
     .my-45{
         margin-top: 45px;
-        margin-bottom: -45px;
     }
 
     .z-1{
@@ -153,9 +156,9 @@
     }
 
     @media screen and (max-width: 1630px) {
-        .design-image{
-            transform: translate(30%,40%);
-        }
+        // .design-image{
+        //     transform: translate(30%,40%);
+        // }
     }
 
     @media screen and (min-width: 1400px) {
@@ -168,9 +171,9 @@
         .order-first{
             order:1;
         }
-        .design-image{
-            transform: translate(-4%,40%);
-        }
+        // .design-image{
+        //     transform: translate(-4%,40%);
+        // }
         &__wrapper{
             grid-template-columns: 100%;
             grid-row-gap: 30px;
@@ -181,6 +184,16 @@
             iframe{
                 width: 100%;
             }
+        }
+    }
+    @media screen and (max-width: 991px){
+        &__top.w-50{
+            width: 100% !important;
+        }
+
+        &__bottom.h-500{
+            margin-top: 50px;
+            height: max-content;
         }
     }
     // Write your code here

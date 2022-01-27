@@ -1,15 +1,15 @@
 <?php
 
-namespace Components\ce9f468bbc8d7493f89918363550455db\VirtualReality;
+namespace Components\c94a14ace47d6401789a488dca2586412\Branding;
 
 use App\Utilities\ExtendedComponent;
 
-class c5f8e2943c37f46e0880068d83109940d extends ExtendedComponent
+class caceecbf971be42fe8dbe57797affa1f5 extends ExtendedComponent
 {
-    protected string $uuid = "c5f8e2943c37f46e0880068d83109940d";
-    protected string $group_id = "ce9f468bbc8d7493f89918363550455db";
-    protected string $name = "VirtualReality";
-    protected string $description = "VirtualReality";
+    protected string $uuid = "caceecbf971be42fe8dbe57797affa1f5";
+    protected string $group_id = "c94a14ace47d6401789a488dca2586412";
+    protected string $name = "Branding";
+    protected string $description = "Branding";
     // variables used in pug template
     protected array $variables = [
         

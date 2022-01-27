@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="/main.css">
 <div class="c94a14ace47d6401789a488dca2586412 bg-blue overflow-y overflow-x-clip" id="c8efa1fc85142415ab69e0800b86530e7">
     <!-- Write your code here -->
     <div class="container">
@@ -20,4 +19,3 @@
     </div>
     <!-- Write your code here -->
 </div>
-<script src="/main.js"></script>

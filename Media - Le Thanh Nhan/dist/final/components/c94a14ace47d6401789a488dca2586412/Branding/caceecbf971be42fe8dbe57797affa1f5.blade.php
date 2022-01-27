@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="/main.css">
 <div class="c94a14ace47d6401789a488dca2586412" id="caceecbf971be42fe8dbe57797affa1f5">
     <!-- Write your code here -->
     <div class="container-lg c94a14ace47d6401789a488dca2586412__wrapper">
@@ -24,4 +23,3 @@
     </div>
     <!-- Write your code here -->
 </div>
-<script src="/main.js"></script>

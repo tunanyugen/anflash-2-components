@@ -1,13 +1,13 @@
 <?php
 
-namespace Components\ce9f468bbc8d7493f89918363550455db\Media;
+namespace Components\c94a14ace47d6401789a488dca2586412\Media;
 
 use App\Utilities\ExtendedComponent;
 
 class cd54c04c50dfa4a60965c6ad75bf24cfe extends ExtendedComponent
 {
     protected string $uuid = "cd54c04c50dfa4a60965c6ad75bf24cfe";
-    protected string $group_id = "ce9f468bbc8d7493f89918363550455db";
+    protected string $group_id = "c94a14ace47d6401789a488dca2586412";
     protected string $name = "Media";
     protected string $description = "Media";
     // variables used in pug template
