@@ -4,6 +4,11 @@
     @foreach ($categories as $category)
         <div>Category: {{$category->title}}</div>
     @endforeach
+    <div>phonenumber: {{$phonenumber}}</div>
+    <div>email: {{$email}}</div>
+    <div>address: {{$address}}</div>
+    <div>facebook: {{$facebook}}</div>
+    <div>youtube: {{$youtube}}</div>
     <!-- Write your code here -->
 </div>
 <script src="/main.js"></script>

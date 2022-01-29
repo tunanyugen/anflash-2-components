@@ -3,17 +3,17 @@
     <!-- Write your code here -->
     <div class="container-lg c8688ad7a5c08439eac4a6c8642226d55__wrapper">
         <div class="c8688ad7a5c08439eac4a6c8642226d55__left">
-            <img src="{{$content->thumbnail}}" alt="">
+            <img src="<?php echo e($content->thumbnail); ?>" alt="">
         </div>
         <div class="c8688ad7a5c08439eac4a6c8642226d55__right flex-column order-first z-999">
-            <h2>{{ $content->title }}</h2>
-            <p>{!! $content->content !!}</p>
+            <h2><?php echo e($content->title); ?></h2>
+            <p><?php echo $content->content; ?></p>
             <div class="c8688ad7a5c08439eac4a6c8642226d55__items">
-                @foreach($items as $item)
-                    <a class="c8688ad7a5c08439eac4a6c8642226d55__item text-black hover" href="{{route('article', ['alias' => $item->alias])}}"><i class="fas fa-caret-right"></i>{{$item->title}}</a>
-                @endforeach
+                <?php $__currentLoopData = $items; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $item): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                    <a class="c8688ad7a5c08439eac4a6c8642226d55__item text-black hover" href="<?php echo e(route('article', ['alias' => $item->alias])); ?>"><i class="fas fa-caret-right"></i><?php echo e($item->title); ?></a>
+                <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </div>
-            <a href="{{route('article', ['alias' => $content->alias])}}" class="c8688ad7a5c08439eac4a6c8642226d55__button hover-white">
+            <a href="<?php echo e(route('article', ['alias' => $content->alias])); ?>" class="c8688ad7a5c08439eac4a6c8642226d55__button hover-white">
                 Tìm hiểu thêm <i class="fas fa-arrow-right"></i>
             </a>
             <div class="c8688ad7a5c08439eac4a6c8642226d55__contact bg-blue p-3 mt-3 text-white">
@@ -25,3 +25,4 @@
     <!-- Write your code here -->
 </div>
 <script src="/main.js"></script>
+<?php /**PATH /home/lethanhnhan/project/component-php/anflash-2-components/LeThanhNhan-HomeCategories/src/HomeGraphicsAndBranding/index.blade.php ENDPATH**/ ?>
